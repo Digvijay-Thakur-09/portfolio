@@ -23,7 +23,7 @@ const Navbar = () => {
         >
 <div className="flex items-center">
   <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-    Zeeshan &nbsp;
+    Digvijay &nbsp;
     <span className='sm:block hidden'>| MERN Developer</span>
   </p>
 </div>

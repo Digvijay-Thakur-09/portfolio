@@ -37,7 +37,7 @@ const Footer = () => {
                 style={{ color: '#fff', marginRight: '2rem' }}
               />
             </h4>
-            <p>tpc.zeeshan@gmail.com</p>
+            <p>digvijay09thakur@gmail.com</p>
           </div>
         </div>
 
