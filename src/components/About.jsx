@@ -40,11 +40,10 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled web developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, vue.js and
-        Next.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        "Computer Science undergraduate at Amity University Mohali with a strong interest in AI and machine learning. 
+        I have solved over 400 problems on LeetCode, building a solid grasp of data structures and algorithmic thinking. 
+        I enjoy working on end-to-end machine learning projects, from data preprocessing and model training to deploying simple interactive interfaces. 
+        As a regular hackathon participant, I am motivated to build practical and scalable software systems."
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

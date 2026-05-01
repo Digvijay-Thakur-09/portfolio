@@ -43,114 +43,61 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Machine Learning Enthusiast',
     icon: web,
   },
   {
-    title: 'React Developer',
+    title: 'Data Structures & Algorithms',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Python Developer',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'AI Integrator',
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'Next JS',
-    icon: nextjs,
-  },
-  {
-    name: 'Vue JS',
-    icon: vuejs,
-  },
+  { name: 'Python', icon: python },
+  { name: 'C++', icon: cpp },
+  { name: 'Java', icon: java },
+  { name: 'HTML 5', icon: html },
+  { name: 'Scikit-learn', icon: scikitlearn },
+  { name: 'Pandas', icon: pandas },
+  { name: 'NumPy', icon: numpy },
+  { name: 'MySQL', icon: mysql },
+  { name: 'Git', icon: git },
+  { name: 'GitHub', icon: github },
 ];
 
 const experiences = [
   {
-    title: 'Node.js Developer',
-    company_name: 'xyz',
-    icon: sharpener,
+    title: 'Competitive Programmer',
+    company_name: 'LeetCode',
+    icon: sharpener, // You might want to import a LeetCode icon later
     iconBg: '#383E56',
-    date: 'Sept 2018 - April 2022',
+    date: 'Ongoing',
     points: [
-      'Developed and maintained robust, high-performance web applications using Node.js and related technologies.',
-      'Designed RESTful APIs and integrated third-party services to enhance application functionality.',
-      'Utilized Express.js for creating server-side logic and handling HTTP requests and responses.',
-      'Implemented real-time features using WebSocket and Socket.IO, enhancing user interaction and experience.',
-      'Used MongoDB and other NoSQL databases for efficient data storage and retrieval.',
-      'Deployed applications using cloud platforms such as AWS, Google Cloud, and Azure.',
-      'Participated in code reviews and provided constructive feedback to improve code quality and maintain best practices.',
+      'Solved 400+ problems on LeetCode utilizing C++ and Java.',
+      'Developed a solid grasp of data structures, algorithms, and optimization techniques.',
+      'Regularly practice advanced algorithmic thinking to build efficient software solutions.',
     ],
   },
   {
-    title: 'Full Stack Web Developer',
-    company_name: 'abcd',
-    icon: handsInTechnology,
+    title: 'Hackathon Participant',
+    company_name: 'Thapar Institute & Various',
+    icon: handsInTechnology, 
     iconBg: '#E6DEDD',
-    date: 'May 2022 - jan 2026',
+    date: 'Ongoing',
     points: [
-      'Designed and developed responsive, user-friendly web applications using HTML, CSS, and JavaScript.',
-      'Implemented client-side scripting and server-side programming to create dynamic, interactive web pages.',
-      'Utilized modern JavaScript frameworks and libraries such as React, Next, and Vue.js to build scalable front-end solutions.',
-      'Developed and maintained back-end services using Node.js, Express.js, and other server-side technologies.',
-      'Collaborated with UX/UI designers to translate design prototypes into functional, visually appealing web pages.',
-      'Managed databases using MySQL, PostgreSQL, and MongoDB for efficient data storage and retrieval.',
-      'Employed version control systems like Git for code collaboration and management.',
-      'Conducted code reviews and implemented best practices to maintain code quality and consistency.',
-      'Troubleshooted and resolved front-end and back-end issues to ensure smooth operation of web applications.',
+      'Regular participant in competitive hackathons, building working prototypes under strict time constraints.',
+      'Collaborate with peers to conceptualize, design, and develop practical and scalable software systems.',
+      'Focused on integrating LLMs and Machine Learning models into functional web applications.',
     ],
   },
-  
 ];
 
 const testimonials = [
@@ -182,151 +129,40 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Gaming League',
+    name: 'CineMatch Pro',
     description:
-      'It is a ompetitive e-sports platform that connects tournament organizers, players, and spectators. Founded by a team of gamers who believe in providing Indian players with a stage to launch their gaming careers, IGL offers tournaments across various games and platforms.',
+      'A production-ready movie recommendation system utilizing K-Nearest Neighbors (KNN) and Cosine Distance to match user preferences against a database of 600,000+ films. Used GitHub Actions to fetch, deduplicate, and merge live TMDB API data weekly, and built a high-performance interactive UI using Streamlit and Gemini.',
     tags: [
-      {
-        name: 'React.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
-      },
+      { name: 'Python', color: 'blue-text-gradient' },
+      { name: 'Scikit-Learn', color: 'green-text-gradient' },
+      { name: 'Streamlit', color: 'pink-text-gradient' },
     ],
-    image: project1,
-    view: '',
-  },
-
-  {
-    name: 'GameGods',
-    description:
-      'GameGods is a Web3-based social networking platform dedicated to gamers and the gaming community. Developed by Avalon Tech Inc., a U.S.-based tech startup, GameGods aims to create a global social network for gamers through its application and website. Game Gods is merely a gaming and technology platform, and you are solely and entirely responsible for the legal and tax compliance of all transactions.',
-    tags: [
-      {
-        name: 'React.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: project2,
-    view: '',
+    image: project1, // Update with a screenshot of your app later
+    view: 'https://github.com/Digvijay-Thakur-09',
   },
   {
-    name: 'Amity University',
+    name: 'Car Price Prediction',
     description:
-      "ISBM University's modern and vibrant campus is designed to facilitate an engaging learning environment. The institution also emphasizes global exposure through international partnerships, aiming to provide students with diverse perspectives and a broader educational experience. Our university offers a variety of courses to meet the needs of every student. From Business to Biology, and from Psychology to Politics.",
+      'A machine learning web app to predict car prices based on user inputs. Experimented with multiple regression models (Linear Regression, Decision Tree, KNN, Random Forest) and achieved an R² of ~0.92 using ensemble techniques. Deployed a simple interactive UI for real-time predictions.',
     tags: [
-      {
-        name: 'React.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
-      },
+      { name: 'Machine Learning', color: 'blue-text-gradient' },
+      { name: 'Pandas', color: 'green-text-gradient' },
+      { name: 'Regression', color: 'pink-text-gradient' },
     ],
-    image: project3,
-    view: '',
-  },
-  // {
-  //   name: '',
-  //   description: '',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'stripe',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'tailwind',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: ,
-  //   view: '',
-  // },
-  {
-    name: "B2B platform",
-    description:
-      "Platform is designed to reduce operational costs, enhance market reach, and provide real-time business analytics, empowering businesses to make informed decisions and foster growth within the ICT industry.",
-    tags: [
-      {
-        name: 'React.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: project4,
-    view: '',
+    image: project2, 
+    view: 'https://github.com/Digvijay-Thakur-09',
   },
   {
-    name: 'Online Insurance Portal Dubai',
+    name: 'Trust Token',
     description:
-      'The website is an online insurance portal based in Dubai, offering a range of insurance services to its users. The platform provides various types of insurance, including motor and yacht insurance, allowing users to obtain coverage for their vehicles and vessels.',
+      'A system developed during a hackathon to verify social media claims using LLMs (Grok, LLaMA) and trusted sources like PIB. Utilized Pinecone/FAISS for fast retrieval of relevant information and implemented hashing for data integrity to make the verification process transparent and less biased.',
     tags: [
-      {
-        name: 'React.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
-      },
+      { name: 'LLMs', color: 'blue-text-gradient' },
+      { name: 'Pinecone', color: 'green-text-gradient' },
+      { name: 'NLP', color: 'pink-text-gradient' },
     ],
-    image: project5,
-    view: '',
-  },
-  {
-    name: 'E-Commerce',
-    description:
-      'It leverages modern web technologies Next.js and Tailwind CSS to deliver a seamless shopping experience. The site is optimized for speed, SEO, and dynamic content rendering, making it an excellent choice for online stores. It also supports integrations with various commerce providers, offering flexibility and scalability for businesses.',
-    tags: [
-      {
-        name: 'Next.js',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Stripe',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'TailwindCSS',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: project6,
-    view: '',
+    image: project3, 
+    view: 'https://github.com/Digvijay-Thakur-09',
   },
 ];
 

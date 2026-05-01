@@ -24,7 +24,7 @@ const Navbar = () => {
 <div className="flex items-center">
   <p className='text-white text-[18px] font-bold cursor-pointer flex'>
     Digvijay &nbsp;
-    <span className='sm:block hidden'>| MERN Developer</span>
+    <span className='sm:block hidden'>| AI/ML Engineer</span>
   </p>
 </div>
         </Link>

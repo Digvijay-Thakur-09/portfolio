@@ -15,8 +15,8 @@ const Footer = () => {
           <div className='flex mb-4'>
             <FaHome size={20} style={{ color: '#fff', marginRight: '2rem' }} />
             <div className='text-xl leading-none'>
-              <p>Lucknow</p>
-              <p>Uttar Pradesh Pradesh.</p>
+              <p>Chandigarh</p>
+              <p>India.</p>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
                 style={{ color: '#fff', marginRight: '2rem' }}
               />
             </h4>
-            <p>9792242260</p>
+            <p>+91 9317624542</p>
           </div>
 
           <div className='flex mb-4  text-lg font-semibold'>
@@ -44,8 +44,8 @@ const Footer = () => {
         <div>
           <h3 className='text-xl font-bold mb-2'>About Me</h3>
           <p>
-            Passionate Full Stack Web Developer | Crafting Innovative Solutions
-            Across Frontend & Backend
+           Computer Science Undergraduate | 
+           Building scalable ML models and AI-driven applications
           </p>
           <div className='flex space-x-4 mt-4'>
             <a
@@ -69,7 +69,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href=''
+              href='https://github.com/Digvijay-Thakur-09'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -79,7 +79,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href=''
+              href='https://www.linkedin.com/in/digvijay-thakur-779487325'
               target='_blank'
               rel='noopener noreferrer'
             >
