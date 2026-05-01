@@ -61,16 +61,16 @@ const services = [
 ];
 
 const technologies = [
-  { name: 'Python', icon: python },
-  { name: 'C++', icon: cpp },
-  { name: 'Java', icon: java },
-  { name: 'HTML 5', icon: html },
-  { name: 'Scikit-learn', icon: scikitlearn },
-  { name: 'Pandas', icon: pandas },
-  { name: 'NumPy', icon: numpy },
-  { name: 'MySQL', icon: mysql },
-  { name: 'Git', icon: git },
-  { name: 'GitHub', icon: github },
+  { name: 'Python', icon: javascript },
+  { name: 'C++', icon: javascript },
+  { name: 'Java', icon: javascript },
+  { name: 'HTML 5', icon: javascript },
+  { name: 'Scikit-learn', icon: javascript },
+  { name: 'Pandas', icon: javascript },
+  { name: 'NumPy', icon: javascript },
+  { name: 'MySQL', icon: javascript },
+  { name: 'Git', icon: javascript },
+  { name: 'GitHub', icon: javascript },
 ];
 
 const experiences = [
