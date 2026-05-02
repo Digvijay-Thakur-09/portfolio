@@ -3,27 +3,12 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  nextjs,
-  vuejs,
   sharpener,
   handsInTechnology,
   project1,
   project2,
   project3,
-  project4,
-  project5,
-  project6,
-  threejs,
+  // threejs was removed from here because the file is missing
 } from '../assets';
 
 export const navLinks = [
