@@ -143,7 +143,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
+   {
     name: 'CineMatch Pro',
     description:
       'A production-ready movie recommendation system utilizing K-Nearest Neighbors (KNN) and Cosine Distance to match user preferences against a database of 600,000+ films. Used GitHub Actions to fetch, deduplicate, and merge live TMDB API data weekly, and built a high-performance interactive UI using Streamlit and Gemini.',
@@ -152,8 +152,8 @@ const projects = [
       { name: 'Scikit-Learn', color: 'green-text-gradient' },
       { name: 'Streamlit', color: 'pink-text-gradient' },
     ],
-    image: project1, // Update with a screenshot of your app later
-    view: 'https://github.com/Digvijay-Thakur-09',
+    image: project1, // This will now automatically use your new cinematch.png!
+    view: 'https://cinematch-pro-kqoewokn4rnyzpvpjcjztr.streamlit.app/', // <--- Paste your live link here
   },
   {
     name: 'Car Price Prediction',

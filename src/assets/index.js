@@ -10,7 +10,7 @@ import sharpener from "./company/sharpener.png";
 import handsInTechnology from "./company/handsInTechnology.png";
 
 // Temporary placeholders to stop the crash
-import project1 from "./web.png"; 
+import project1 from "./cinematch.png";
 import project2 from "./mobile.png";
 import project3 from "./creator.png";
 
