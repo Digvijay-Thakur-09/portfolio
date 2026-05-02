@@ -61,16 +61,47 @@ const services = [
 ];
 
 const technologies = [
-  { name: 'Python', icon: javascript },
-  { name: 'C++', icon: javascript },
-  { name: 'Java', icon: javascript },
-  { name: 'HTML 5', icon: javascript },
-  { name: 'Scikit-learn', icon: javascript },
-  { name: 'Pandas', icon: javascript },
-  { name: 'NumPy', icon: javascript },
-  { name: 'MySQL', icon: javascript },
-  { name: 'Git', icon: javascript },
-  { name: 'GitHub', icon: javascript },
+  { 
+    name: 'Python', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg' 
+  },
+  { 
+    name: 'C++', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg' //[cite: 1]
+  },
+  { 
+    name: 'Java', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg' 
+  },
+  { 
+    name: 'HTML 5', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg' 
+  },
+  { 
+    name: 'Scikit-learn', 
+    // Note: Scikit-learn isn't in Devicon, using a generic python/data icon or a direct upload is best, but here is a placeholder data icon:
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' 
+  },
+  { 
+    name: 'Pandas', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg' 
+  },
+  { 
+    name: 'NumPy', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg' 
+  },
+  { 
+    name: 'MySQL', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg' 
+  },
+  { 
+    name: 'Git', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg' 
+  },
+  { 
+    name: 'GitHub', 
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' 
+  },
 ];
 
 const experiences = [
