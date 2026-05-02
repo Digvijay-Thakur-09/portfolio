@@ -9,9 +9,10 @@ import close from "./close.svg";
 import sharpener from "./company/sharpener.png";
 import handsInTechnology from "./company/handsInTechnology.png";
 
-import project1 from "./project1.png";
-import project2 from "./project2.png";
-import project3 from "./project3.png";
+// Temporary placeholders to stop the crash
+import project1 from "./web.png"; 
+import project2 from "./mobile.png";
+import project3 from "./creator.png";
 
 export {
   logo,

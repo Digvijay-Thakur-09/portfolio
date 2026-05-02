@@ -52,7 +52,7 @@ const technologies = [
   },
   { 
     name: 'C++', 
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg' //[cite: 1]
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg' 
   },
   { 
     name: 'Java', 
@@ -64,7 +64,6 @@ const technologies = [
   },
   { 
     name: 'Scikit-learn', 
-    // Note: Scikit-learn isn't in Devicon, using a generic python/data icon or a direct upload is best, but here is a placeholder data icon:
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' 
   },
   { 
