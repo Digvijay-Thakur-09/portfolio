@@ -8,6 +8,7 @@ import {
   project1,
   project2,
   project3,
+  aerocast,
   // threejs was removed from here because the file is missing
 } from '../assets';
 
@@ -115,32 +116,32 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+//     name: 'Sara Lee',
+//     designation: 'CFO',
+//     company: 'Acme Co',
+//     image: 'https://randomuser.me/api/portraits/women/4.jpg',
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: 'Chris Brown',
+//     designation: 'COO',
+//     company: 'DEF Corp',
+//     image: 'https://randomuser.me/api/portraits/men/5.jpg',
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: 'Lisa Wang',
+//     designation: 'CTO',
+//     company: '456 Enterprises',
+//     image: 'https://randomuser.me/api/portraits/women/6.jpg',
+//   },
+// ];
 
 const projects = [
    {
@@ -178,6 +179,27 @@ const projects = [
     ],
     image: project3, 
     view: 'https://github.com/Digvijay-Thakur-09',
+  },
+  {
+    name: "AeroCast Pro",
+    description:
+      "A City-Aware machine learning pipeline predicting next-day PM2.5 concentrations across 6 global metropolitan centers. Features custom atmospheric physics vectors and a multi-threaded, rate-limit defensive ingestion engine to counter severe data volatility lag.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "xgboost",
+        color: "green-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aerocast_thumbnail, // Make sure to import your project screenshot at the top of the file!
+    view: "https://github.com/yourusername/AeroCast-Pro",
   },
 ];
 
